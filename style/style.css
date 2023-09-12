@@ -1,0 +1,50 @@
+@import "general.css";
+/*General Style*/
+span{
+    color: var(--black-Color);
+    font-weight: 600;
+}
+/*Header Style*/
+header{
+    border-bottom: 1px solid #dee0ea;
+}
+.global-notification{
+    background-color: #1467EF;
+    padding: .875rem 0;
+    text-align: center;
+    color: var(--white-Color);
+    font-size: .75rem;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 75rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-center .navigation .menu-list{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+.header-center .menu-list .menu-link{
+    font-size: .875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header-center .menu-list  i{
+    font-size: .75rem;
+}
+.header-row{
+    height: 5.625rem;
+    display: flex;
+    align-items: center;
+}
+.header-left .logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+}
